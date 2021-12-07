@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35637" started-at="2021-12-07T15:41:13 GMT" finished-at="2021-12-07T15:41:48 GMT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hudlTest.testHudl.RunnerClass@1d371b2d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="35637" started-at="2021-12-07T15:41:13 GMT" finished-at="2021-12-07T15:41:48 GMT">
+      <class name="hudlTest.testHudl.RunnerClass">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:hudlTest.testHudl.RunnerClass@1d371b2d]" name="setUpClass" is-config="true" duration-ms="394" started-at="2021-12-07T15:41:13 GMT" finished-at="2021-12-07T15:41:13 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@70f822e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hudlTest.testHudl.RunnerClass@1d371b2d]" name="runScenario" duration-ms="6886" started-at="2021-12-07T15:41:13 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-07T15:41:20 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login success"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Hudl login function test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hudlTest.testHudl.RunnerClass@1d371b2d]" name="runScenario" duration-ms="5496" started-at="2021-12-07T15:41:20 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-07T15:41:26 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login unsuccess"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Hudl login function test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hudlTest.testHudl.RunnerClass@1d371b2d]" name="runScenario" duration-ms="4263" started-at="2021-12-07T15:41:26 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-07T15:41:30 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login unsuccess"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Hudl login function test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hudlTest.testHudl.RunnerClass@1d371b2d]" name="runScenario" duration-ms="4279" started-at="2021-12-07T15:41:30 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-07T15:41:34 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login unsuccess"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Hudl login function test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hudlTest.testHudl.RunnerClass@1d371b2d]" name="runScenario" duration-ms="6507" started-at="2021-12-07T15:41:34 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-07T15:41:41 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User view video in your team page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Hudl login function test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:hudlTest.testHudl.RunnerClass@1d371b2d]" name="runScenario" duration-ms="7617" started-at="2021-12-07T15:41:41 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-07T15:41:48 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User search football using search text bar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Hudl login function test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:hudlTest.testHudl.RunnerClass@1d371b2d]" name="tearDownClass" is-config="true" duration-ms="151" started-at="2021-12-07T15:41:48 GMT" finished-at="2021-12-07T15:41:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- hudlTest.testHudl.RunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
